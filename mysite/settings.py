@@ -32,7 +32,6 @@ ALLOWED_HOSTS = ['auth-1xbu.onrender.com']
 # Application definition
 
 INSTALLED_APPS = [
-    'accounts', 
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -40,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'drf_yasg',
-    'app',   
+    'accounts',   
     
     'rest_framework',
     'rest_framework_simplejwt',
